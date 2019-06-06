@@ -48,5 +48,9 @@ public class Rectangle extends Shape {
 	public double area() {
 		return width * height;
 	}
-
+	
+	
+	public String toString() {
+		return String.format("%.2f", area());
+	}
 }

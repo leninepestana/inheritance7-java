@@ -29,5 +29,10 @@ public class Circle extends Shape{
 	public double area() {
 		return Math.PI * radius * radius;
 	}
+	
+	
+	public String toString() {
+		return String.format("%.2f", area());
+	}
 
 }
